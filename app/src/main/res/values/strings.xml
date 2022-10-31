@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Messenger java</string>
+    <string name="messenger">MESSENGER</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="name">Name</string>
+    <string name="second_name">Second name</string>
+    <string name="age">Age</string>
+    <string name="sign_in">Sign in</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset_password_uppercase">RESET PASSWORD</string>
+    <string name="register">Register</string>
+    <string name="registration_upper">REGISTRATION</string>
+    <string name="welcome">Welcome!</string>
+    <string name="default_info">John Dow, 27</string>
+    <string name="type_message">Type message</string>
+</resources>

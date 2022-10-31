@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102748953817",
+    "project_id": "stepik-messenger",
+    "storage_bucket": "stepik-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102748953817:android:a14026b8846fc24a7172c8",
+        "android_client_info": {
+          "package_name": "ru.ivos.messenger_java"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102748953817-k92klq2i04brfktung5q0adv3s1i8qkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ7CfHeYM8uDpcNwnN9mtLWoGln2EJ_zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102748953817-k92klq2i04brfktung5q0adv3s1i8qkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

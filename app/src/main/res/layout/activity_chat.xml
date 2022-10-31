@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <TextView
+        android:id="@+id/tvTitleCA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/purple_200"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="John Smith"/>
+
+    <View
+        android:id="@+id/vStatusCA"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        tools:background="@drawable/cyrcle_red"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTitleCA"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTitleCA"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMessagesCA"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleCA"
+        app:layout_constraintBottom_toTopOf="@+id/etEnterMessageCA"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/user_message_item"/>
+
+    <EditText
+        android:id="@+id/etEnterMessageCA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="48dp"
+        android:background="@color/white"
+        android:hint="@string/type_message"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/ivSendMessage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/etEnterMessageCA"
+        app:layout_constraintEnd_toEndOf="@+id/etEnterMessageCA"
+        app:layout_constraintTop_toTopOf="@+id/etEnterMessageCA"
+        app:tint="@color/purple_500"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
