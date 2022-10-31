@@ -8,7 +8,7 @@
     android:padding="8dp"
     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
     tools:listitem="@layout/user_item"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
 
 

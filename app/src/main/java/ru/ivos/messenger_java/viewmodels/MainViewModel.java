@@ -1,4 +1,4 @@
-package ru.ivos.messenger_java;
+package ru.ivos.messenger_java.viewmodels;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -15,6 +15,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ru.ivos.messenger_java.entities.User;
 
 public class MainViewModel extends ViewModel {
 

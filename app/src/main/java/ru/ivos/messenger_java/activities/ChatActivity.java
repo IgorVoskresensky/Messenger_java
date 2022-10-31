@@ -1,4 +1,4 @@
-package ru.ivos.messenger_java;
+package ru.ivos.messenger_java.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -16,8 +16,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
+
+import ru.ivos.messenger_java.viewmodels.ChatViewModel;
+import ru.ivos.messenger_java.viewmodels.ChatViewModelFactory;
+import ru.ivos.messenger_java.entities.Message;
+import ru.ivos.messenger_java.adapters.MessagesAdapter;
+import ru.ivos.messenger_java.R;
+import ru.ivos.messenger_java.entities.User;
 
 public class ChatActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package ru.ivos.messenger_java;
+package ru.ivos.messenger_java.viewmodels;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -12,6 +12,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import ru.ivos.messenger_java.entities.User;
 
 public class RegistrationViewModel extends ViewModel {
 

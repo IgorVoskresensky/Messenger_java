@@ -1,4 +1,4 @@
-package ru.ivos.messenger_java;
+package ru.ivos.messenger_java.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,21 +9,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+
+import ru.ivos.messenger_java.R;
+import ru.ivos.messenger_java.adapters.UserAdapter;
+import ru.ivos.messenger_java.entities.User;
+import ru.ivos.messenger_java.viewmodels.MainViewModel;
 
 public class MainActivity extends AppCompatActivity {
 

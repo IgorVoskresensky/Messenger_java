@@ -1,4 +1,4 @@
-package ru.ivos.messenger_java;
+package ru.ivos.messenger_java.viewmodels;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;

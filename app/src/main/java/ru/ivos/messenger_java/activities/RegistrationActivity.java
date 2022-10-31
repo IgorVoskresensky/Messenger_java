@@ -1,4 +1,4 @@
-package ru.ivos.messenger_java;
+package ru.ivos.messenger_java.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -13,6 +13,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseUser;
+
+import ru.ivos.messenger_java.R;
+import ru.ivos.messenger_java.viewmodels.RegistrationViewModel;
 
 public class RegistrationActivity extends AppCompatActivity {
 
